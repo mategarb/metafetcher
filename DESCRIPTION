@@ -1,8 +1,8 @@
 Package: metafetcher
 Title: An R package for linking and standardizing metabolites data 
 Version: 1.1.1
-Authors@R: 
-    c(person("Sara", "Younes", email = "sara.younes@icm.uu.se", role = c("aut", "ctb")),
+Authors@R: c(
+    person("Sara", "Younes", email = "sara.younes@icm.uu.se", role = c("aut", "ctb")),
     person("Rajmund", "Csombordi", email = "rajmund.csombordi@gmail.com", role = c("aut", "cre")),
     person("Klev", "Diamanti", email="klev.diamanti@igp.uu.se", role = c("ctb")),
     person("Jan", "Komorowski", email = "jan.komorowski@icm.uu.se", role = c("aut", "cph")))
