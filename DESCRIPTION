@@ -2,10 +2,10 @@ Package: metafetcher
 Title: An R package for linking and standardizing metabolites data 
 Version: 1.1.1
 Authors@R: 
-    person("Sara", "Younes", email = "sara.younes@icm.uu.se", role = c("aut", "ctb")),
+    c(person("Sara", "Younes", email = "sara.younes@icm.uu.se", role = c("aut", "ctb")),
     person("Rajmund", "Csombordi", email = "rajmund.csombordi@gmail.com", role = c("aut", "cre")),
     person("Klev", "Diamanti", email="klev.diamanti@igp.uu.se",role = c("ctb")),
-    person("Jan", "Komorowski", email = "jan.komorowski@icm.uu.se", role = c("aut", "cph"))
+    person("Jan", "Komorowski", email = "jan.komorowski@icm.uu.se", role = c("aut", "cph")))
 Maintainer: Jan Komorowski <jan.komorowski@icm.uu.se>, Sara Younes <sara.younes@icm.uu.se>
 Description: Integration of metabolites data and sorting the interpredencies of metabolites information between small-compound databases: 1-HMDB, 2-KEGG, 3-Lipidmaps, 4-Chebi
 Imports: Rcpp,httr,RPostgreSQL,sets,XML,iterators
